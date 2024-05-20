@@ -46,4 +46,9 @@ public class GradeConverterTest {
     String actual = converter.convert(-40);
     assertEquals(expected, actual);
   }
+  public void testConvert6() {
+    String expected = "A";
+    String actual = converter.convert(-50);
+    assertEquals(expected, actual);
+  }
 }
